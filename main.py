@@ -24,10 +24,9 @@ def main():
 
     # TODO: create the function
     result=parallel_processing(n,m,data)
-    x=len(result)
     # TODO: print out the results, each pair in it's own line
-    for i in range(x):
-        print(result[i])
+    for i,j in result:
+        print(i,j)
 
 if __name__ == "__main__":
     main()
